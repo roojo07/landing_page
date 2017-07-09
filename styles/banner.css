@@ -1,0 +1,63 @@
+﻿.banner {
+    height: 560px;
+    background-image: url('../images/banner/banner.jpg');
+    background-size: cover;
+    font-family: 'Fjalla One', Arial, sans-serif;
+}
+
+.banner::before{
+    content: '';
+    width: 1170px;
+    height: 560px;
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+}
+
+.banner__info{
+    position: relative;
+    top: 290px;
+    left: 20px;
+}
+
+.banner__slider{
+    width: 70px;     
+    margin-bottom: 30px; 
+    cursor: pointer;      
+}
+
+.banner__slider--arrow-left {    
+    width: 34px;    
+    float: left;
+    margin-right: 1px;
+}
+
+.banner__title{
+    width: 470px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 35px;
+    font-size: 31px;
+    color: #e7e7e7;    
+}
+
+.banner__title--first{
+    display: block;    
+}
+
+.banner__title--first::after{
+    content: '';
+    width: 250px;
+    height: 2px;
+    background-color: #e7e7e7;
+    display: block;     
+    position: relative;
+    left: 195px;
+    margin-top: -20px;
+    margin-bottom: 30px; 
+}
+
+.banner__link{
+    font-size: 15px;
+    color: #e84c3d;
+}

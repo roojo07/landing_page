@@ -1,0 +1,19 @@
+﻿body {
+    width: 1170px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+p{
+    margin: 0;
+}
+
+input,
+button,
+textarea,
+ul{
+    border: none;
+    padding: 0;
+}
+
+

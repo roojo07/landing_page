@@ -1,0 +1,35 @@
+﻿.header {
+    height: 80px;
+    background-color: #202628;
+    color: #e7e7e7; 
+    text-transform: uppercase; 
+    font-family: 'Fjalla One', Arial, sans-serif;     
+}
+
+.header__logo{
+    float: left;    
+    font-size: 25px;
+    line-height: 45px;
+    margin: 17px 0 0 20px;       
+}
+
+.header__nav{
+    float: right;    
+    font-size: 13px;
+    line-height: 33px;
+    margin-top: 8px;     
+}
+
+.header__list li{
+    display: inline-block;    
+}
+
+.header__list a{
+    text-decoration: none;
+    color: #e7e7e7;    
+    padding: 35px 25px;
+}
+
+.header__list a:hover{
+   background: #e84c3d;
+}

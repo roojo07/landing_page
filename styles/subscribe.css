@@ -1,0 +1,74 @@
+﻿.subscribe {
+    padding: 50px 30px;
+    background-color: #e84c3d;
+    margin-bottom: 70px;    
+    height: 87px;    
+    border-radius: 10px;
+    color: white;   
+}
+
+.quote{
+    margin-right: 50px;
+    float: left;
+    width: 540px;
+}
+
+.quote__img{
+    float: left;
+    margin-right: 30px;
+} 
+
+.quote__img img{
+    width: 70px;
+}
+
+.quote__title,
+.send-email__title{
+    text-transform: uppercase;
+    font-family: 'Fjalla One', Arial, sans-serif;
+    font-size: 21px;
+    letter-spacing: 1px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.quote__body{
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.quote__author{
+    font-style: italic;
+    font-size: 14px;
+}
+
+.send-email__body{
+    font-family: 'Lato', Arial, sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    color: #9faaad;
+    width: 360px;
+    height: 40px;
+    border-radius: 30px;
+    margin-right: 10px;
+    padding-left: 20px;
+}
+
+.send-email__button{
+    background-color: #202628;
+    text-transform: uppercase;
+    font-family: 'Fjalla One', Arial, sans-serif;
+    font-size: 14px;    
+    color: #e7e7e7;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;    
+}
+
+.send-email__button img{
+    margin-left: 3px;
+    position: relative;
+    bottom: 2px;
+}
